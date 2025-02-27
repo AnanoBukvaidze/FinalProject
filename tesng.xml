@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1">
+
+    <listeners>
+        <listener class-name="ge.aversiclinic.utils.TestListener"/>
+    </listeners>
+
+    <test name="Auth">
+        <classes>
+            <class name="RestApi"/>
+            <class name="ge.aversiclinic.test.LoginTest"/>
+        </classes>
+    </test>
+
+</suite>
