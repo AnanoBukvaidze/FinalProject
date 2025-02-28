@@ -6,7 +6,7 @@ It includes a set of five test cases designed to verify the functionality of web
 ## Project Structure
 
 - **Test Classes:** Located in `src/test/java`.
-- **Main Source Code:** Located in `src/main/resources`.
+- **Main Source Code:** Located in `src/main/java`.
 
 ## Prerequisites
 
